@@ -1,0 +1,1808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Slick Slider  -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>All Store</title>
+</head>
+
+<body>
+
+    <!-- Header Start -->
+    <header>
+        <div class="container">
+
+            <!-- Header Start -->
+            <div class="header">
+                <div class="left-side">
+                    <img src="img/logo.png" width="100%" class="img-fluid alt="">
+                </div>
+                <div class=" right-side">
+                    <ul>
+                        <li><i class="icon icon-Heart"></i><a href="#">Wishlist</a> <span>(1)</span></li>
+                        <li><i class="icon icon-Chart"></i><a href="#">Compare </a><span>(5)</span></li>
+                        <li><i class="icon icon-Lock"></i><a href="#">Registration / Login</a><span>(1)</span></li>
+                        <li><i class="icon icon-Shopping-cart"></i><a href="#">Cart</a><span>(0)</span></li>
+                    </ul>
+                </div>
+                <div class="bar">
+                    <i class="icon icon-Bars"></i>
+                </div>
+            </div>
+            <!-- Header End -->
+
+            <!-- Navbar Start -->
+            <div class="nav-bar">
+                <nav>
+                    <ul>
+                        <li class="items"><a href="#">Home</a></li>
+                        <li class="items"><a href="#">Mens</a></li>
+                        <li class="items"><a href="#">Womens</a></li>
+                        <li class="items"><a href="#">Footwear</a></li>
+                        <li class="items"><a href="#">About</a></li>
+                        <li class="items"><a href="#">Blogs</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Navbar End -->
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Selling Slider Start -->
+    <div class="container">
+        <section>
+            <div class="selling my-5">
+                <div class="selling-item">
+                    <div class="row g-0 text-center main-slider">
+                        <div class=" p-0 col-md-12">
+                            <div class="card border-0 ">
+                                <div class="img">
+                                    <img src="img/slide1.jpg">
+                                </div>
+                                <div class="box">
+                                    <h1>MEGA SALE - 30%</h1>
+                                    <p>Winter Collection For Women's
+                                        We all have choices for you Check it out!..
+                                    </p>
+                                    <button class="btn ">View Collectiion</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" p-0 col-md-12">
+                            <div class="card border-0 ">
+                                <div class="img">
+                                    <img src="img/slide2.jpg">
+                                </div>
+                                <div class="box">
+                                    <h1>NEW COLLECTION</h1>
+                                    <p>Winter Collection For Women's
+                                        We all have choices for you Check it out!..
+                                    </p>
+                                    <button class="btn ">Shopping Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" p-0 col-md-12">
+                            <div class="card border-0 ">
+                                <div class="img">
+                                    <img src="img/slide3.jpg">
+                                </div>
+                                <div class="box">
+                                    <h1>SUMMER TRANDS</h1>
+                                    <p>Winter Collection For Women's
+                                        We all have choices for you Check it out!..
+                                    </p>
+                                    <button class="btn ">Start Shopping</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Selling Slider End -->
+
+    <!-- Populsr Product Start -->
+    <div class="container">
+        <section>
+            <div class="product">
+                <div class="title text-center">
+                    <h2>ALL CATEGORIES</h2>
+                </div>
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#allCatagory"
+                            type="button" role="tab" aria-controls="home" aria-selected="true">All CATAGORIES</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#women"
+                            type="button" role="tab" aria-controls="profile" aria-selected="false">WOMEN</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#men"
+                            type="button" role="tab" aria-controls="contact" aria-selected="false">MEN</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#kids"
+                            type="button" role="tab" aria-controls="contact" aria-selected="false">KIDS</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#shoes"
+                            type="button" role="tab" aria-controls="contact" aria-selected="false">SHOES</button>
+                    </li>
+                </ul>
+
+                <!-- Tab Contant Start -->
+                <div class="tab-content" id="myTabContent">
+
+                    <!-- All Catagory Product Tab Start -->
+                    <div class="tab-pane fade show active" id="allCatagory" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="row text-center product-slider">
+                            <div class="col-md-12 ">
+                                <div class="img-box">
+                                    <img src="img/11.jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/41 (1).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/51 (1).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/31.jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/31.jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/31 (2).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/31 (1).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/21 (2).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/21 (1).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/101.jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/21 (2).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- All Catagory Product Tab End -->
+
+                    <!-- Women Product Tab Start -->
+                    <div class="tab-pane fade" id="women" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="row text-center product-slider">
+                            <div class="col-md-12 ">
+                                <div class="img-box">
+                                    <img src="img/11.jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/21 (1).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/31 (1).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/41.jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/51.jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/61.jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/31.jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/21.jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/71.jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/81.jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/91.jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Women Product Tab End -->
+
+                    <!-- Mane Product Tab Start -->
+                    <div class="tab-pane fade" id="men" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="row text-center product-slider">
+                            <div class="col-md-12 ">
+                                <div class="img-box">
+                                    <img src="img/11 (1).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$20</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/21 (1).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/81 (1).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$910</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/41 (1).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$50</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/21 (1).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$30</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/51 (1).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$20</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/71 (1).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$920</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Mane Product Tab End -->
+
+                    <!-- Kids Product Tab Start -->
+                    <div class="tab-pane fade" id="kids" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="row text-center product-slider">
+                            <div class="col-md-12 ">
+                                <div class="img-box">
+                                    <img src="img/11.jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/41 (1).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/51 (1).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/31.jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/21 (1).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/101.jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/21 (2).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Kids Product Tab End -->
+
+                    <!-- Shoes Product Tab Start -->
+                    <div class="tab-pane fade" id="shoes" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="row text-center product-slider">
+                            <div class="col-md-12 ">
+                                <div class="img-box">
+                                    <img src="img/11 (3).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/21 (3).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/51 (3).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/41 (3).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/61 (3).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/81 (2).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="img-box">
+                                    <img src="img/71 (2).jpg" alt="">
+                                    <div class="icon-box">
+                                        <i class="fa fa-heart"></i>
+                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-bar-chart"></i>
+                                        <button class="btn">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="detail">
+                                    <strong>Aspernatur excepturi rem</strong>
+                                    <span>$90</span>
+                                    <div class="star">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Shoes Product Tab End -->
+
+                </div>
+                <!-- Tab Contant End -->
+            </div>
+        </section>
+    </div>
+    <!-- Popular Product End -->
+
+    <!-- Banners Start -->
+    <div class="container">
+        <section>
+            <div class="banner-list">
+                <div class="row g-0">
+                    <div class="col-lg-6 col-12 p-4">
+                        <div class="men-banner">
+                            <div class="detail">
+                                <span>New Collection</span><br><br>
+                                <strong>MEN'S CLOTHING</strong>
+                                <button class="btn"> VIEW MORE &nbsp;<i class="fa fa-caret-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 cpl-12 p-4">
+                        <div class="row">
+                            <div class=" col-lg-6 col-sm-6 pb-sm-0 pb-4">
+                                <div class="accessories-banner">
+                                    <div class="detail">
+                                        <span>Great Collection</span>
+                                        <strong>CLOTHING ACCESSORIES</strong>
+                                        <div class="more-btn">
+                                            <button class="btn"> show more </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-sm-6 ">
+                                <div class="sport-banner">
+                                    <div class="detail">
+                                        <strong>Sport Clothes</strong>
+                                        <button class="btn"> go to catalog</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-0">
+                    <div class="col-lg-6 cpl-12 p-4">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6 ">
+                                <div class="shoes-banner">
+                                    <div class="detail">
+                                        <strong>Sport Clothes</strong>
+                                        <button class="btn"> go to catalog</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-lg-6 col-sm-6 pb-sm-0 pb-4">
+                                <div class="hats-banner">
+                                    <div class="detail">
+                                        <span>Great Collection</span>
+                                        <strong>CLOTHING ACCESSORIES</strong>
+                                        <div class="more-btn">
+                                            <button class="btn"> show more </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12 p-4">
+                        <div class="women-banner">
+                            <div class="detail">
+                                <span>stylish clothes</span><br><br>
+                                <strong>woMEN'S CLOTHING</strong>
+                                <p>a great selaction of dresses and women's suits</p>
+                                <button class="btn"> VIEW MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Banners End -->
+
+    <!-- Special Offer Start -->
+    <div class="container">
+        <section>
+            <div class="special-offer">
+                <div class="title text-center">
+                    <h2> SPECIAL OFFER</h2>
+                </div>
+                <div class="offers">
+                    <div class="row ">
+                        <div class="col-lg-9 col-md-12">
+                            <!-- Offer Slider Start -->
+                            <div class=" row specialOffer">
+                                <div class="col-md-12 box">
+                                    <div class="img-box">
+                                        <img src="img/1 (1).jpg" alt="">
+                                    </div>
+                                    <div class="detail">
+                                        <h5>ullam harum</h5>
+                                        <span>$190 </span>
+                                        <del>$210</del>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 box">
+                                    <div class="img-box">
+                                        <img src="img/3 (1).jpg" alt="">
+                                    </div>
+                                    <div class="detail">
+                                        <h5>SIMILIQUE DELECTUS
+                                        </h5>
+                                        <span>$90 </span>
+                                        <del>$100</del>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 box">
+                                    <div class="img-box">
+                                        <img src="img/4 (1).jpg" alt="">
+                                    </div>
+                                    <div class="detail">
+                                        <h5> harum ullam</h5>
+                                        <span>$199 </span>
+                                        <del>$310</del>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 box">
+                                    <div class="img-box">
+                                        <img src="img/5 (1).jpg" alt="">
+                                    </div>
+                                    <div class="detail">
+                                        <h5>SIMILIQUE DELECTUS
+                                        </h5>
+                                        <span>$90 </span>
+                                        <del>$100</del>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 box">
+                                    <div class="img-box">
+                                        <img src="img/6 (1).jpg" alt="">
+                                    </div>
+                                    <div class="detail">
+                                        <h5> harum ullam</h5>
+                                        <span>$199 </span>
+                                        <del>$310</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Offer Slider End -->
+
+                        <!-- Offer Tag Start -->
+                        <div class="col-lg-3 col-md-12 ">
+                            <div class="offer-tag">
+                                <p class="">Special offer! limited time only</p>
+                                <button class="btn">Shop now</button>
+                            </div>
+                        </div>
+                        <!-- Offer Tag End -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Special Offer End -->
+
+    <!-- Latest News Start-->
+    <div class="container">
+        <section>
+            <div class="news">
+                <div class="title text-center">
+                    <h2> LATEST NEWS</h2>
+                </div>
+                <div class="row text-center">
+                    <div class="col-lg-4 col-sm-6  pb-lg-0 pb-4">
+                        <div class="img-box">
+                            <div class="img">
+                                <img src="img/blog1.jpg" alt="">
+                            </div>
+                            <div class="post">
+                                <div class="post-date">
+                                    <span>30</span>Jan
+                                </div>
+                                <div class="post-info">
+                                    <a href="">Articles</a>
+                                    <h3>Ex atque commodi</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 pb-lg-0 pb-4">
+                        <div class="img-box">
+                            <div class="img">
+                                <img src="img/blog6.jpg" alt="">
+                            </div>
+                            <div class="post">
+                                <div class="post-date">
+                                    <span>29</span>May
+                                </div>
+                                <div class="post-info">
+                                    <a href="">Articles</a>
+                                    <h3>Ex atque commodi</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6  pb-lg-0 pb-4">
+                        <div class="img-box">
+                            <div class="img">
+                                <img src="img/blog11.jpg" alt="">
+                            </div>
+                            <div class="post">
+                                <div class="post-date">
+                                    <span>25</span>feb
+                                </div>
+                                <div class="post-info">
+                                    <a href="">News</a>
+                                    <h3>Hic quod maxime deserunt</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Latest News End-->
+
+    <!-- Testomonials Section Start -->
+    <div class="container">
+        <section class="reviews">
+            <div class="title text-center">
+                <h2> OUR TEAM</h2>
+            </div>
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x align-center">
+                    <div class="cell medium-10 small-12">
+                        <div class="reviews-text-slider slider-for">
+                            <div class="sin-testiText">
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form, by injected humour,
+                                    or randomised words which don't look even slightly believable.by injected humour, or
+                                    randomised words which don't look even slightly believable</p>
+                            </div>
+                            <div class="sin-testiText">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cum saepe impedit
+                                    eveniet. Nesciunt voluptas iste, nobis ut iusto ea placeat esse deleniti quisquam
+                                    amet ad earum dicta ipsum corrupti!</p>
+                            </div>
+                            <div class="sin-testiText">
+                                <p> Sunt tempora ipsam Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    perferendis impedit veniam sequi unde, facere harum eius quia architecto voluptates
+                                    esse qui laboriosam? Voluptatem laudantium id eum ducimus.</p>
+                            </div>
+                            <div class="sin-testiText">
+                                <p>There are many variations of passages of Lorem Ipsum available,
+                                    but the majority have suffered alteration in some form, by injected humour,
+                                    or randomised words which don't look even slightly believable.but the majority have
+                                    suffered alteration in some form,</p>
+                            </div>
+                            <div class="sin-testiText">
+                                <p>Nam nec tellus a odio tincidunt This is Photoshop's version of Lorem Ipsum.
+                                    Proin gravida nibh vel velit auctor aliquet. Proin gravida nibh vel velit auctor
+                                    aliquet. Aenean sollicitudin,
+                                    aliquet lorem quis tellus velit bibendum auctor, nisi elit consequat ipsum</p>
+                            </div>
+                            <div class="sin-testiText">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cum saepe impedit
+                                    eveniet. Nesciunt voluptas iste, nobis ut iusto ea placeat esse deleniti quisquam
+                                    amet ad earum dicta ipsum corrupti!</p>
+                            </div>
+                            <div class="sin-testiText">
+                                <p> Sunt tempora ipsam Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    perferendis impedit veniam sequi unde, facere harum eius quia architecto voluptates
+                                    esse qui laboriosam? Voluptatem laudantium id eum ducimus.</p>
+                            </div>
+                            <div class="sin-testiText">
+                                <p>There are many variations of passages of Lorem Ipsum available,
+                                    but the majority have suffered alteration in some form, by injected humour,
+                                    or randomised words which don't look even slightly believable.but the majority have
+                                    suffered alteration in some form,</p>
+                            </div>
+                            <div class="sin-testiText">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cum saepe impedit
+                                    eveniet. Nesciunt voluptas iste, nobis ut iusto ea placeat esse deleniti quisquam
+                                    amet ad earum dicta ipsum corrupti!</p>
+                            </div>
+                            <div class="sin-testiText">
+                                <p> Sunt tempora ipsam Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    perferendis impedit veniam sequi unde, facere harum eius quia architecto voluptates
+                                    esse qui laboriosam? Voluptatem laudantium id eum ducimus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell medium-9 small-12">
+                        <div class="reviews-slider slider-nav">
+                            <div class="sin-testiImage">
+                                <img src="img/T2.jpg" alt="">
+                            </div>
+                            <div class="sin-testiImage">
+                                <img src="img/T3.jpg">
+                            </div>
+                            <div class="sin-testiImage">
+                                <img src="img/T4.jpg">
+                            </div>
+                            <div class="sin-testiImage">
+                                <img src="img/T5.jpg">
+                            </div>
+                            <div class="sin-testiImage">
+                                <img src="img/T6.jpg">
+                            </div>
+                            <div class="sin-testiImage">
+                                <img src="img/T7.jpg">
+                            </div>
+                            <div class="sin-testiImage">
+                                <img src="img/T8.jpg">
+                            </div>
+                            <div class="sin-testiImage">
+                                <img src="img/T9.jpg">
+                            </div>
+                            <div class="sin-testiImage">
+                                <img src="img/T10.jpg">
+                            </div>
+                            <div class="sin-testiImage">
+                                <img src="img/T11.jpg">
+                            </div>
+                            <div class="sin-testiImage">
+                                <img src="img/T12.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell medium-10 small-12">
+                        <div class="reviews-text-slider slider-for">
+                            <div class="sin-testiText">
+                                <h2>aureole jayde</h2>
+                                <span>director</span>
+                            </div>
+                            <div class="sin-testiText">
+                                <h2>Soyong Sourav</h2>
+                                <span>java devloper</span>
+                            </div>
+                            <div class="sin-testiText">
+                                <h2>Joker Buzz</h2>
+                                <span>devloper</span>
+                            </div>
+                            <div class="sin-testiText">
+                                <h2>M S Nawaz </h2>
+                                <span>angular devloper</span>
+                            </div>
+                            <div class="sin-testiText">
+                                <h2>Chowchilla Madera</h2>
+                                <span>laravel devloper</span>
+                            </div>
+                            <div class="sin-testiText">
+                                <h2>Kattie Luis</h2>
+                                <span>ui designer</span>
+                            </div>
+                            <div class="sin-testiText">
+                                <h2>aureole jayde</h2>
+                                <span>Manager</span>
+                            </div>
+                            <div class="sin-testiText">
+                                <h2>Soyong Sourav</h2>
+                                <span>php devloper</span>
+                            </div>
+                            <div class="sin-testiText">
+                                <h2>Joker Buzz</h2>
+                                <span>full stack devloper</span>
+                            </div>
+                            <div class="sin-testiText">
+                                <h2>M S Nawaz </h2>
+                                <span>angular devloper</span>
+                            </div>
+                            <div class="sin-testiText">
+                                <h2>Chowchilla Madera</h2>
+                                <span>designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Testomonials Section End -->
+
+    <!-- Footer Start -->
+
+    <footer>
+        <div class="footer">
+            <div class="footer-top">
+                <div class="container">
+
+                    <div class="logo">
+                        <img src="img/logo-b.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, tenetur. Repudiandae
+                            aspernatur, voluptates minus, laborum earum quidem sequi!</p>
+                        <div class="footer-icon">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-google-plus"></i>
+                            <i class="fa fa-vimeo"></i>
+                            <i class="fa fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-6 ">
+                                    <strong>about us</strong>
+                                    <a>home</a>
+                                    <a>catalog</a>
+                                    <a>Elements</a>
+                                    <a>shipping</a>
+                                </div>
+                                <div class="col-lg-6 col-sm-6 pt-lg-0 pt-4">
+                                    <strong>shop</strong>
+                                    <a>women</a>
+                                    <a>mens</a>
+                                    <a>kids</a>
+                                    <a>shoes</a>
+                                    <a>accessories</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 pt-lg-0 pt-4">
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-6">
+                                    <strong>information</strong>
+                                    <a>blog</a>
+                                    <a>news</a>
+                                    <a>reviews</a>
+                                    <a>articles</a>
+                                    <a>contacts</a>
+                                </div>
+                                <div class="col-lg-6 col-sm-6 d-sm-none d-md-block">
+                                    <strong>contact us</strong>
+                                    <div class="text-start address">
+                                        <a><i class="fa fa-map-marker"></i>city of london,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; guildhall, PO Box 270</a>
+                                        <a><i class="fa fa-envelope"></i>allstore@gmail.com</a>
+                                        <a><i class="fa fa-phone"></i>+123 456 7890</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <span>Copyright &#169; <a href="">basicTheme</a>. all rights reserved</span>
+                        </div>
+                        <div class="col-lg-6 text-end">
+                            <img src="img/payment.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer End -->
+
+    <!-- JS Bundal -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Slick Slider -->
+    <script src="JS/slick.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+    <script>
+        // $('.main-slider').slick({
+        //     dots: true,
+        //     autoplaySpeed: 2000,
+        //     autoplay: true,
+        //     prevArrow: false,
+        //     nextArrow: false,
+        // });
+
+
+        // $('.main-slider').slick();
+
+        $('.main-slider').slick({
+            autoplay: true,
+            speed: 800,
+            lazyLoad: 'progressive',
+            arrows: true,
+            dots: false,
+            prevArrow: '<div class="faarrow"><div class="icon"><i  class="fa fa-arrow-left"></i></div></div>',
+            nextArrow: '<div class="faarrow"><div class="icon"><i class="fa fa-arrow-right"></i></div></div>',
+        });
+
+        $('.specialOffer').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            prevArrow: false,
+            nextArrow: false,
+            centerMode: true,
+
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: true,
+                        centerPadding: '20px',
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+
+        $('.product-slider').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 4,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            slidesToScroll: 4,
+            prevArrow: '<div class="faarrow"><div class="icon"><i  class="fa fa-arrow-left"></i></div></div>',
+            nextArrow: '<div class="faarrow"><div class="icon"><i class="fa fa-arrow-right"></i></div></div>',
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        dots: false,
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+
+        jQuery(document).ready(function ($) {
+
+            $(".regular").slick({
+                dots: true,
+                autoplay: true,
+                autoplaySpeed: 9000,
+                speed: 700,
+                mobileFirst: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                pauseOnHover: false,
+                respondTo: 'min',
+                cssEase: 'linear',
+                // prevArrow: '<span class="icon-angle-left"></span>',
+                // nextArrow: '<span class="icon-angle-right"></span>'
+            });
+
+            $('.slider-for').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                draggable: false,
+                fade: true,
+                asNavFor: '.slider-nav'
+            });
+
+            $('.slider-nav').slick({
+                centerMode: true,
+                focusOnSelect: true,
+                slidesToShow: 9,
+                asNavFor: '.slider-for',
+                slidesToScroll: 1,
+                prevArrow: false,
+                nextArrow: false,
+                responsive: [
+                    {
+                        breakpoint: 576,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '0px',
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '0px',
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '0px',
+                            slidesToShow: 5
+                        }
+                    }
+                ]
+            });
+
+
+
+
+
+        });	
+    </script>
+
+</body>
+
+</html>
